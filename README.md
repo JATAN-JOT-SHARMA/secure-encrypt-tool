@@ -3,11 +3,14 @@ File encryption and decryption tool for securing sensitive data using strong alg
 
 #cloning the file 
 Firstly clone the repository  from https://github.com/JATAN-JOT-SHARMA/secure-encrypt-tool
-after clone cd secure-encrypt-tool
+After clone cd secure-encrypt-tool
 
 #README 
-after cloning open the folder 
-read the README.MD and then open the python file to vscode .
+After cloning open the folder 
+Read the README.MD and then open the python file to vscode .
+
+#INSTALLATION
+After the read the REAME.MD install the requirements from requirement.txt
 
 #RUN THE FILE 
-after open the file in vscode run as python secure-encrypt-tool.py
+In vscode run as python secure-encrypt-tool.py
