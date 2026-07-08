@@ -7,8 +7,6 @@
 
 Secure Encrypt Tool is a Python-based desktop application that helps users protect sensitive files using strong encryption. It provides an easy-to-use graphical interface for encrypting and decrypting files while maintaining data confidentiality and integrity.
 
-> **Note:** This project is intended for educational purposes and authorized use only.
-
 ---
 
 # 📌 Features
@@ -276,3 +274,58 @@ This software is intended only for legal, ethical, and authorized use. Users are
 ---
 
 ## Made with ❤️ using Python
+
+
+
+📥 Installation Steps
+### 1. Clone the Repository
+
+Download the project from GitHub:
+
+git clone https://github.com/yourusername/Secure-Encrypt-Tool.git
+
+Move into the project directory:
+
+cd Secure-Encrypt-Tool
+
+
+
+
+
+### 2. Create Virtual Environment (Recommended)
+
+Create a Python virtual environment:
+
+python -m venv venv
+
+Activate the environment:
+
+Windows:
+venv\Scripts\activate
+Linux / macOS:
+source venv/bin/activate
+### 3. Install Required Dependencies
+
+Install all required Python packages:
+
+pip install -r requirements.txt
+📦 Required Libraries
+
+The tool uses the following libraries:
+
+customtkinter
+cryptography
+pillow
+pyperclip
+tkinter
+
+If requirements.txt is unavailable, install manually:
+
+pip install customtkinter cryptography pillow pyperclip
+
+
+### 4. ▶️ Running Secure Encrypt Tool
+
+Start the application:
+
+python secure_encrypt.py
